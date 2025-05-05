@@ -1,0 +1,13 @@
+ultralytics  # For YOLOv8
+opencv-python  # Image processing
+numpy  # Numerical operations
+matplotlib  # Visualization
+tensorflow  # Required for Mask R-CNN
+pandas  # Data handling
+scipy  # Scientific computing
+Pillow  # Image handling
+requests  # HTTP requests
+PyYAML  # YAML file support
+scikit-learn  # Machine learning utilities
+torch  # PyTorch for deep learning
+torchvision  # Torch utilities for computer vision
