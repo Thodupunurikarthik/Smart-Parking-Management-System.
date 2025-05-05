@@ -1,13 +1,7 @@
-# Root dataset directory (use the absolute path in Google Drive)
-path: /content/drive/My Drive/Smart/dataset  
+path: E:/Smart/dataset  # Root dataset directory
+train: train/images  # Training images folder (relative to 'path')
+val: valid/images  # Validation images folder (relative to 'path')
+test: test/images  # (optional) Test images folder
 
-# Training, validation, and optional test folders (relative to 'path')
-train: /content/drive/My Drive/Smart/dataset/train/images
-val: /content/drive/My Drive/Smart/dataset/valid/images
-test: /content/drive/My Drive/Smart/dataset/test/images
-
-# Number of classes
-nc: 3  
-
-# Class names
-names: ["spaces", "space-empty", "space-occupied"]
+nc: 3  # Number of classes (update this based on your dataset)
+names: ["spaces", "space-empty", "space-occupied"]  # Class names
